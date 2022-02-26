@@ -1,5 +1,5 @@
+import { List } from "./components/List";
+
 export function App() {
-  return (
-    <h1> Hello World!</h1>
-  );
+  return <List initialItems={['Fulano', 'Ciclano', 'Beltrano']}/>;
 }
